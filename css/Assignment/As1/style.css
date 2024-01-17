@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    text-decoration: underline ;
+    color: red;
+}
+p{
+    text-align: center;
+    background-color: #964B00;
+    
+    line-height: 30px;
+}
+h3{
+
+    text-align: right;
+    color: black;
+}
+
+div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+button{
+    background-color: white;
+    color: blueviolet;
+}
+::placeholder{
+    color: black\;
+}
