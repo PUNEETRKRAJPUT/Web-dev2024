@@ -11,3 +11,10 @@
 }
 .child{
     
+    height: 50px;
+    width: 90px;
+    font-size: 24px;
+    /* vertical-align: middle; */
+    line-height: 50px; 
+    margin-left: 10px;
+}
