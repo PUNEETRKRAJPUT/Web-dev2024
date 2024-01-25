@@ -1,6 +1,6 @@
 .loader{
-    border: 16px solid #f3f3f3;
-    border-top: 16px solid goldenrod;
+    border: 16px solid hsl(0, 0%, 95%);
+    border-top: 16px solid red;
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -15,4 +15,4 @@
     100%{
         transform: rotate(360deg);
     }
-}
+} 
