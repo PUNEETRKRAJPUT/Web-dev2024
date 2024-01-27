@@ -18,10 +18,11 @@ body{
 
 }
 .main-content{
-    background: blue;
+    background: black;
     flex: 1;
     overflow: auto;
     border-radius: 1rem;
+    padding: 0 1.5rem 0 1.5rem;
 
 }
 .music-player{
@@ -128,6 +129,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0 1rem 0;
+    z-index: 10;
 }
 
 .sticky-nav-icons img{
@@ -153,5 +155,172 @@ margin-left: 0.5rem;
     .hide{
         display: none;
     }
+}
+
+.card{
+    background-color: #121212;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0rem 1.5rem 1.5rem 0rem ;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.card-title{
+    font-weight: 600;
+}
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.85;
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+.music-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.album{
+    width: 25%;
+}
+.player{
+    width: 50%;
+}
+.control{
+    width: 25%;
+}
+.player-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player-control-icon{
+    height: 1rem;
+    margin-left: 1.75rem;
+    opacity: 0.7;
+}
+.player-control-icon:hover{
+
+    opacity: 1;
+}
+
+.playback-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress-bar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: white;
+    border-radius:100px ;
+    height: 0.2rem;
+    
+
+}
+.progress-bar ::-webkit-slider-thumb{
+    appearance: none;
+    height: 16px;
+    width: 16px;
+    background-color: #1bd760;
+}
+.album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.album-pic{
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    margin:1rem 0rem 1rem 1rem  ;
+    
+
+}
+.album-pic img{
+    border-radius: 10px;
+    height: 51px;
+    width: 51px;
+
+}
+.song{
+    width: 50%;
+    font-size: 12px;
+
+}
+.song p{
+    width: 50%;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem 0 0.4rem 0.5rem ;
+
+}
+.album-icon {
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+.dil {
+    width: 50%;
+    height: 25px;
+    width: 25px;
+}
+.chotu {
+    width: 50%;
+    margin-top: 10px;
+    height: 25px;
+    width: 25px;
+}
+.control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.control img{
+    height: 1.5rem;
+    margin-left: 0.5rem;
+    opacity:1;
+}
+.control--icon1{
+    
+}
+
+.yhk{
+    width: 60%;
+
+}
+.yhj{
+    width: 40%;
+}
+.progress-bar-chotu{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: white;
+    border-radius:100px ;
+    height: 0.2rem;
 }
 
