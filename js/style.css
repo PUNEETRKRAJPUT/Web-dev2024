@@ -1,0 +1,9 @@
+.container{
+    justify-content: center;
+    align-items: center;margin: 10pc auto;
+    padding-left: px;
+    background-color: aqua;
+}
+li{
+    font-size: 30px;
+}
