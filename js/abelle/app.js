@@ -7,7 +7,7 @@ while(true){
         prompt("thoda try krta toh pta chl jaata !!");
         break;
     }
-    if(guess=="tum"){
+    if(guess=="choot"){
         prompt("yeah you won !!!!!!!!!!!");
         break;
     }else if(guess == "ganna"){
